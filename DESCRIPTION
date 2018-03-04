@@ -1,0 +1,16 @@
+Package: platsannonsR
+Type: Package
+Title: platsannonsR
+Version: 0.1.0
+Author: Andreas Uddén
+Maintainer: Andreas Uddén <udden2903@gmail.com>
+Description: A wrapper, written in R, for Arbetsförmedlingen's Platsannons API.
+     More information about the API is available at https://www.arbetsformedlingen.se/Globalmeny/Om-webbplatsen/Oppna-data.html (in Swedish).
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Depends: httr,
+    purrr,
+    lubridate,
+    dplyr
