@@ -10,3 +10,5 @@ The `platsannonsR` package is an R wrapper for the Platsannonser API. More infor
 
     library(platsannonsR)
     data_jobs <- search_jobs("data analyst", limit = 10)
+    data_jobs_sthlm <- data_jobs[data_jobs$kommunnamn == "Stockholm",] 
+    about_job(data_jobs_sthlm$annonsid[1])
